@@ -36,3 +36,25 @@ console.log(n1 >= 10);
 
 console.log(n1 != 10);
 console.log(n1 !== "10");
+
+// OPERADORES LÓGICOS
+/*
+Para uma pessoa viajar para o exterior:
+ - Precisa ser maior de 18 anos
+ OU
+ - Acompanhado com os pais
+ E
+ - Ter comprado bilhete
+*/
+let idade = 18
+let paisPresentes = true;
+let comprouBilhete = true;
+const podeViajar = (idade >= 18 || paisPresentes) && comprouBilhete;
+console.log(`Pode viajar: ${podeViajar}`);
+
+console.log(n1, n2, n3);
+n1 = 6;
+n2 = 8;
+let media = n1 + n2 /2;
+console.log(`Média: ${media}`);
+console.log((3 * 2) ** 2)
