@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loops</title>
+</head>
+<body>
+    
+    <h1>Funçoes</h1>
+
+    <script>
+        
+        //Declaração de Função
+        function ola() {
+            document.write("Olá Mundo")
+        }
+
+        ola()
+
+        // Expressão de Função
+        const ola2 = function(){
+            console.log("Olá mundo function expression")
+        }
+
+        ola2()
+
+        // Arrow functions
+
+        const ola3 = () => {
+            console.log("Olá mundo arrow function")
+        }
+
+        ola3()
+
+        // Retorno de valores
+
+        function obtemDiaSemana(){
+            return new Date().getDay()
+        }
+
+        let dia = obtemDiaSemana()
+        
+        function somar(n1, n2){
+            return n1 + n2
+        }
+
+        
+        let soma = somar(3, 5)
+        console.log(soma)
+        console.log(somar(10, 4))
+        alert(somar(2, 3))
+
+    </script>
+</body>
+</html>
