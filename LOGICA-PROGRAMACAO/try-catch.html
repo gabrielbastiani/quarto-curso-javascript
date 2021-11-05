@@ -12,7 +12,19 @@
     <script src="sum.js"></script>
 
     <script>
-        console.log(3, 5)
+        //console.log(sum(3, 5))
+        //alert(sum(3, "a"))
+        //document.write(sum(4,2))
+        let soma = ""
+        try {
+            let soma = sum(3, "a")
+        } catch (e) {
+            console.log("Ocorreu um erro")
+            console.log(e.message)
+        }
+        
+        console.log(soma)
     </script>
+
 </body>
 </html>
