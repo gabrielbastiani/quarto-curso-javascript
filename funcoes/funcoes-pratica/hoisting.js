@@ -1,11 +1,8 @@
-/* teste()
 
-function teste(){
-    console.log('teste')
-} */
+teste()
 
-const teste = function teste(){
+function teste() {
     console.log("teste")
 }
 
-teste()
+
